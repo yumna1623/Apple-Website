@@ -1,5 +1,48 @@
-/* Responsive Design */
-@media only screen and (max-width: 400px) {
+@media (max-width: 992px) {
+   
+    .end{
+    text-align: left;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    }
+   .overlay1{
+    top: 1400px;
+    left: 150px;
+   }
+   .overlay3 {
+    top: 1400px;
+    left: 750px;
+    }
+    .overlay4 {
+        top: 1960px;
+        left: 240px;
+    }
+    .overlay5 {
+        top: 210px;
+        left: 140px;
+    }
+    .extra {
+        margin-top: 170px;
+        color: white;
+    }
+    .extra h2 {
+        font-size: 45px;
+        font-weight: 500;
+        font-family: sans-serif;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .item {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 479px) {
     .hide {
         display: none;
     }
@@ -18,9 +61,3 @@
     }
 }
 
-
-@media (max-width: 768px) {
-    .item {
-        width: 100%;
-    }
-}

@@ -13,6 +13,12 @@ body {
 /* General Classes */
 .extra {
     margin-top: 170px;
+    color: white;
+}
+.extra h2 {
+    font-size: 45px;
+    font-weight: 500;
+    font-family: sans-serif;
 }
 .justify {
     text-align: center;
@@ -40,6 +46,10 @@ nav {
     color: rgb(216, 197, 197);
     font-size: 14px;
     cursor: pointer;
+}
+.nav-items:hover {
+    color: rgb(216, 197, 197);
+   text-decoration: underline;
 }
 
 /* Search, Apple, and Shopping Icons */
@@ -94,7 +104,7 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
     /* margin: 20px; */
-    background-color: #f1f1f1;
+    background-color: #000000;
     margin: 0px;
     display: flex;
     flex-wrap: wrap;
@@ -125,7 +135,7 @@ nav {
 
 /* Overlay Text */
 .text-overlay,
-.overlay,
+.overlay1,
 .overlay2,
 .overlay3,
 .overlay4,
@@ -138,8 +148,8 @@ nav {
     top: 50%;
     left: 50%;
 }
-.overlay {
-    top: 1400px;
+.overlay1 {
+    top: 1420px;
     left: 350px;
 }
 .overlay2 {
@@ -155,8 +165,10 @@ nav {
     left: 340px;
 }
 .overlay5 {
-    top: 210px;
-    left: 340px;
+    top: 0px;
+    left: 30px;
+    font-size: large;
+    
 }
 
 /* Buttons */
