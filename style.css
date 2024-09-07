@@ -48,8 +48,8 @@ nav {
     cursor: pointer;
 }
 .nav-items:hover {
+    text-decoration: underline;
     color: rgb(216, 197, 197);
-   text-decoration: underline;
 }
 
 /* Search, Apple, and Shopping Icons */
