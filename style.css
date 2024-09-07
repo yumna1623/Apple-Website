@@ -5,6 +5,12 @@
     padding: 0;
     font-family: sans-serif;
 }
+:root{
+    --primary-text-color:#1a405e;
+    --secondary-text-color:#749bc0;
+    --accent-color-dark:#2b93e2;
+    --padding-inline-section:20px;
+}
 
 body {
     background-color: rgb(23, 27, 27);
