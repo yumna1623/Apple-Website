@@ -3,17 +3,16 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
     font-family: sans-serif;
 }
-:root{
-    --primary-text-color:#1a405e;
-    --secondary-text-color:#749bc0;
-    --accent-color-dark:#2b93e2;
-    --padding-inline-section:20px;
-}
+
 
 body {
     background-color: rgb(23, 27, 27);
+    overflow-x: hidden;
+    
 }
 
 /* General Classes */
@@ -129,8 +128,8 @@ nav {
     font-size: 13px;
     padding-left: 200px;
     padding-right: 200px;
-    word-spacing: -6px;
     text-align: center;
+    word-spacing: 1px;
 }
 .main6 p {
     color: #000000b2;
@@ -153,6 +152,7 @@ nav {
 .text-overlay {
     top: 50%;
     left: 50%;
+    
 }
 .overlay1 {
     top: 1420px;
@@ -221,7 +221,7 @@ nav {
 /* Items */
 .item {
     border: 1px solid #ddd;
-    border-radius: 10px;
+    border-radius: 0px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 45%;
     margin: 20px;
@@ -271,7 +271,7 @@ span {
 .part p {
     font-size: 12px;
     font-weight: 300;
-    color: rgb(9, 11, 12);
+    color: rgb(55, 60, 61);
     gap: 11px;
     text-decoration: none;
 }
@@ -303,11 +303,11 @@ span {
 .end {
     text-align: left;
     color: rgb(89, 96, 102);
-    position: absolute;
-    top: 5330px;
-    left: 180px;
+    position: relative;
+    bottom: 0%;
+   margin-left: 40px
 }
-.side-bar{
+/* .side-bar{
     position: fixed;
     top: 0;
     right: 0;
@@ -322,6 +322,6 @@ span {
     display: none;
 
 
-}
+} */
 
 

@@ -1,3 +1,119 @@
+@media only screen and (max-width: 991px) {
+    .nav-flex {
+        justify-content: center;
+        gap: 30px;
+    }
+    .nav-items {
+        font-size: 12px;
+    }
+ 
+
+    .text-overlay,
+.overlay1,
+.overlay2,
+.overlay3,
+.overlay4,
+.overlay5 {
+    position: absolute;
+    text-align: center;
+    /* transform: translate(-50%, -50%); */
+}
+    .overlay1 {
+        top: 1420px;
+        left: 230px;
+    }
+    .overlay2 {
+        top: 1950px;
+        left: 690px;
+    }
+    .overlay3 {
+        top: 1400px;
+        left: 690px;
+    }
+    .overlay4 {
+        top: 1960px;
+        left: 230px;
+    }
+    .overlay5 {
+        top: 0px;
+        left: 30px;  
+    }
+    .main6{
+        justify-content: right;
+        word-spacing: 1px;
+    }
+    /* Part Section */
+.part {
+    display: left;
+    gap: 100px;
+    margin: 180px;
+    margin-top: 90px;
+    margin-left: 90px;
+}
+    
+ 
+}
+@media only screen and (max-width: 767px) {
+
+    .nav-flex {
+        justify-content: center;
+        gap: 16px;
+    }
+    .nav-items {
+        font-size: 12px;
+    }
+    .hide1{
+        display: none;
+
+    }
+    .apple{
+        margin-right: 410px; /* Pushes the logo to the left */
+    }
+    .logo3{
+        display: none;
+    }
+    .overlay1 {
+        top: 1420px;
+        left: 180px;
+        margin: 20px;
+        padding: 150px;
+    }
+    .overlay2 {
+        top: 1950px;
+        left: 540px;
+        margin: 20px;
+        padding: 150px;
+    }
+    .overlay3 {
+        top: 1410px;
+        left: 590px;
+        margin: 20px;
+        padding: 150px;
+    }
+    .overlay4 {
+        top: 1960px;
+        left: 180px;
+        margin: 20px;
+        padding: 150px;
+    }
+    .overlay5 {
+        top: 0px;
+        left: 30px;  
+    }
+    .main6{
+        justify-content: right;
+        width: 100%;
+        overflow: hidden;
+    }
+    /* Part Section */
+    .part {
+        display: left;
+        gap: 80px;
+        margin: 180px;
+        margin-top: 90px;
+        margin-left: 80px;
+    }
+}
 @media only screen and (max-width: 479px) {
     .hide {
         display: none;
@@ -5,40 +121,126 @@
     .menu-bar {
         display: flex;
         justify-content: right;
-        margin-top: 16px;
+        margin-top: 10px;
         font-size: 20px;
         cursor: pointer;
     }
     .apple{
-        margin-right: 210px; /* Pushes the logo to the left */
+        margin-right: 220px; /* Pushes the logo to the left */
+        margin-top: 6px;
+        
     }
     .logo3{
         display: none;
     }
-    .main3 {
-        
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: 0px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0; /* Removes space between the items */
+    .text-overlay{
+        font-size: 12px;
     }
-    :root{
-        --padding-inline-section:10px;
+    .text-overlay h3 {
+        font-size: 16px;
+    }
+
+    .main1 img{
+        width: 100%; 
+        height: 80vh;
+        background-size: cover;
+    }
+    .main2 img{
+        width: 120vw; 
+        height: 80vh;
+        background-position: center;
+    }
+    .main3{
+        flex-direction: column;
+    }
+    .item{
+        width: 100%;
+    }
+    .overlay1 {
+        top: 1210px;
+        left: 197px;
+        margin: 20px;
+        padding: 150px;
+        font-size: 12px;
+    }
+    .overlay1 h2{
+        font-weight: 500;
+    }
+    .overlay1 h4{
+        font-size: 15px;
+    }
+    .overlay2 {
+        top: 1950px;
+        left: 540px;
+        margin: 20px;
+        padding: 150px;
+    }
+    .overlay3 {
+        top: 1310px;
+        left: 590px;
+        margin: 20px;
+        padding: 150px;
+    }
+    .overlay4 {
+        top: 2180px;
+        left: 200px;
+        margin: 20px;
+        padding: 150px;
+    }
+    .overlay4 h2{
+        font-weight: 500;
+    }
+    .overlay4 h4{
+        font-size: 15px;
+    }
+    .overlay5 {
+        top: 0px;
+        left: 30px;  
+    }
+    .extra{
+        font-size: 12px;
+        padding: 90px;
 
     }
-    h1{
-        font-size: 2rem;
+    .extra h4{
+        font-size: 16px;
     }
-    h2{
-        font-size: 1.5rem;
+    .extra{
+        font-size: 12px;
     }
-    h2{
-        font-size: 1.2rem;
+
+
+
+
+
+
+
+
+
+
+    .main6{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center items horizontally */
+            margin: 0 20px; /* Side margin */
+            padding: 20px; /* Padding inside the container */
     }
-    p{
-        font-size: 1rem;
+    .part {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+        padding: 30px; 
+        font-size: 18px;
+        width: 60%;
+      
+      }
+    .end {
+        font-size: 12px;
+        width: 90%;
     }
-   
+    .end p{
+        font-size: 12px;
+    }
 }
